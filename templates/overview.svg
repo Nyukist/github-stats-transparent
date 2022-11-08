@@ -27,8 +27,7 @@ svg {
 
 foreignObject {
   width: calc(100% - 10px - 32px);
-  height: calc(100% - 10px - 28px);
-<!--   지울 수 있음 -->
+<!--   height: calc(100% - 10px - 28px); -->
 }
 
 table {
@@ -80,9 +79,10 @@ tr {
 }
 </style>
 <g>
-<rect x="5" y="5" id="background" />
+<!-- <rect x="5" y="5" id="background" /> -->
+<rect id="background" />
 <g>
-<foreignObject x="21" y="19" width="318" height="172">
+<foreignObject x="21" y="17" width="495" height="195">
 <div xmlns="http://www.w3.org/1999/xhtml">
 
 <table>
