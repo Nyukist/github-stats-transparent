@@ -44,6 +44,15 @@ th {
   font-weight: 600;
   color: #C691E9;
 }
+  
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.75em;
+  line-height: 24px;
+  font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+  color: #918FE0;
+  fill: #918FE0;  
+}
 
 td {
   margin-bottom: 16px;
@@ -87,7 +96,7 @@ tr {
 
 <table>
 <thead><tr style="transform: translateX(0);">
-<th colspan="2">{{ name }}'s GitHub Statistics</th>
+<h2>{{ name }}'s GitHub Statistics</h2>
 </tr></thead>
 <tbody>
 
